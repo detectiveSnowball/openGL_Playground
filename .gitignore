@@ -1,1 +1,6 @@
 Dependencies/
+*.exe
+"Exeternal Dependencies/"
+x64/
+.vs/
+*.user
