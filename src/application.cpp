@@ -3,10 +3,17 @@
 #include <GLFW/glfw3.h>
 
 
-//static unsigned int CompileShader(const std::string& source, unsigned int type)
+//static unsigned int CompileShader(unsigned int type, const std::string& source )
 //{
 //    unsigned int id = glCreateShader(GL_VERTEX_SHADER);
 //    const char* src = source.c_str();
+//    glShaderSource(id, 1, &src, nullptr);
+//    glCompileShader(id);
+//
+//
+//    // TODO: Error Handling
+//
+//    return id;
 //
 //}
 //
@@ -19,6 +26,17 @@
 //
 //    unsigned int program = glCreateProgram();
 //    unsigned int vs = CompileShader(GL_VERTEX_SHADER, vertexShader);
+//    unsigned int fs = CompileShader(GL_VERTEX_SHADER, fragmentShader);
+//
+//    glAttachShader(program, vs);
+//    glAttachShader(program, fs);
+//    glLinkProgram(program);
+//    glValidateProgram(program);
+//
+//    glDeleteShader(vs);
+//    glDeleteShader(fs);
+//
+//    return program;
 //
 //}
 
